@@ -7,17 +7,22 @@ public class Electron_moving : MonoBehaviour
     public float radius;
     public float speed;
     float angle;
-    Vector3 axis = new Vector3(0,1,0);
+    public Vector3 axis;
+    public Vector3 startVector;
+    Vector3 vector;
     Quaternion rotateQuaternion;
     void Start()
      {
         angle = 180f*speed/radius/3.14159f;
-        transform.position = new Vector3(-radius, 0, 0);
-        rotateQuaternion = Quaternion.AngleAxis(angle, axis);
+        transform.position = startVector*radius;
+        vector=startVector.normalized ;
+        // transform.rotation.SetFromToRotation(startVector, Vector3.zero);
+        vector=Quaternion.AngleAxis(90f ,axis)*vector;
+        // rotateQuaternion = Quaternion.AngleAxis(angle, axis);
     }
     void FixedUpdate()
     {
-        transform.rotation*=rotateQuaternion;
-        transform.position+=transform.forward*speed;
+        vector=Quaternion.AngleAxis(angle ,axis)*vector;
+        transform.position+=vector*speed;
     }
 }
