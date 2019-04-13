@@ -381,7 +381,6 @@ GameObject:
   - component: {fileID: 725146679}
   - component: {fileID: 725146678}
   - component: {fileID: 725146677}
-  - component: {fileID: 725146681}
   m_Layer: 0
   m_Name: proton
   m_TagString: Untagged
@@ -474,22 +473,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725146674}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &725146681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725146674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 608956994e5b97a4badaa0478ccb865d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0
-  speed: 0
-  axis: {x: 0, y: 1, z: 0}
-  startVector: {x: -1, y: 0, z: 0}
 --- !u!1 &979887794
 GameObject:
   m_ObjectHideFlags: 0
