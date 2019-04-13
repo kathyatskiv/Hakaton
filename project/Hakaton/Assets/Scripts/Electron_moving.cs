@@ -16,9 +16,7 @@ public class Electron_moving : MonoBehaviour
         angle = 180f*speed/radius/3.14159f;
         transform.position = startVector*radius;
         vector=startVector.normalized ;
-        // transform.rotation.SetFromToRotation(startVector, Vector3.zero);
         vector=Quaternion.AngleAxis(90f ,axis)*vector;
-        // rotateQuaternion = Quaternion.AngleAxis(angle, axis);
     }
     void FixedUpdate()
     {
