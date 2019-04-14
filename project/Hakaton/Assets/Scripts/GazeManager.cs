@@ -37,7 +37,7 @@ public class GazeManager : MonoBehaviour
                  {
                      if(objects[i].Equals(FocusedObject))
                      {
-                         SceneManager.LoadScene(sceneN);
+                         SceneManager.LoadScene(i);
                          break;
                      }
                  }
