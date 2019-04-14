@@ -11,13 +11,16 @@ public class Rotate : MonoBehaviour
         originRotation = transform.rotation;
     }
 
-    
-    void FixedUpdate ()
-    {
-        angle++;
-        Quaternion rotationY = Quaternion.AngleAxis(angle, Vector3.up);
-        //Quaternion rotationX = Quaternion.AngleAxis(angle, Vector3.right);
 
-        transform.rotation = originRotation * rotationY;
+    void FixedUpdate()
+    {
+       /* if (!Electron_moving.Freeze)
+        {
+            angle++;
+            Quaternion rotationY = Quaternion.AngleAxis(angle, Vector3.up);
+            //Quaternion rotationX = Quaternion.AngleAxis(angle, Vector3.right);
+
+            transform.rotation = originRotation * rotationY;
+        }*/
     }
 }

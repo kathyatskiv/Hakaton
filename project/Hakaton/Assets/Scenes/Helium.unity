@@ -149,7 +149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 0}
+  m_AnchoredPosition: {x: 2.14, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142809386
@@ -269,8 +269,8 @@ Camera:
   m_GameObject: {fileID: 197324951}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -310,7 +310,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197324951}
   m_LocalRotation: {x: 0.14306594, y: -0.0009955396, z: 0.0020648623, w: 0.9897105}
-  m_LocalPosition: {x: 8.62, y: 3.93, z: -32.55}
+  m_LocalPosition: {x: 2.7, y: 2.3, z: -6.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -661,7 +661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4a144934093644da340502068bca3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7
+      value: 4.56
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd4a144934093644da340502068bca3b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -702,6 +702,14 @@ PrefabInstance:
     - target: {fileID: 400000, guid: cd4a144934093644da340502068bca3b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cd4a144934093644da340502068bca3b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cd4a144934093644da340502068bca3b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd4a144934093644da340502068bca3b, type: 3}

@@ -6,8 +6,7 @@ using UnityEngine.XR.WSA.Input;
 
 public class GazeManager : MonoBehaviour
 {
-    int sceneN = 1;
-    public GameObject[] objects = new GameObject[6];
+    public GameObject[] objects = new GameObject[11];
     public static GazeManager Instance { get; private set; }
     public static Vector3 resetV = new Vector3(0, 0, 0.1f);
     public static Vector3 moveV = new Vector3(0, 0, -0.1f);
@@ -33,7 +32,7 @@ public class GazeManager : MonoBehaviour
              // Send an OnSelect message to the focused object and its ancestors.
              if (FocusedObject != null)
              {
-                 for(int i = 0; i < objects.Length; i++)
+                 for(int i = 1; i < objects.Length; i++)
                  {
                      if(objects[i].Equals(FocusedObject))
                      {
