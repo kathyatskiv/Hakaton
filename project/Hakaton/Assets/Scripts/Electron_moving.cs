@@ -17,10 +17,11 @@ public class Electron_moving : MonoBehaviour
         transform.position = startVector*radius;
         vector=startVector.normalized ;
         vector=Quaternion.AngleAxis(90f ,axis)*vector;
+        rotateQuaternion=Quaternion.AngleAxis(angle ,axis);
     }
     void FixedUpdate()
     {
-        vector=Quaternion.AngleAxis(angle ,axis)*vector;
+        vector=rotateQuaternion*vector;
         transform.position+=vector*speed;
     }
 }
