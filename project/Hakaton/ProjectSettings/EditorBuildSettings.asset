@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TestSceneKath.unity
+    guid: 41870611484024d4db065b4c5434590f
+  - enabled: 1
+    path: Assets/Scenes/Carbon.unity
+    guid: 01024f0f826440240893b348b32f1678
+  - enabled: 1
+    path: Assets/Scenes/Helium.unity
+    guid: 98ac7334409dead41a09d7b1bc35b314
+  - enabled: 1
+    path: Assets/Scenes/Hydrogenium.unity
+    guid: 6ae88722b4bb9984380ad3ac507ebaae
+  - enabled: 1
+    path: Assets/Scenes/Li.unity
+    guid: a762f5d359891b240a906eb740c78b8e
+  - enabled: 1
+    path: Assets/Scenes/Nitrogenium.unity
+    guid: 443900bb84da65642b5e6d8ca17d399f
+  - enabled: 1
+    path: Assets/Scenes/Oxygen.unity
+    guid: b98de4c02d730da458aa2dc2f87d7116
   m_configObjects: {}
